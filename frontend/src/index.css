@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.btn-primary {
+  @apply px-6 py-3 font-semibold text-white transition-all duration-300 transform rounded-lg shadow-lg bg-fendr-primary hover:bg-amber-600 hover:scale-105 hover:shadow-xl;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 font-semibold text-white transition-all duration-300 transform rounded-lg shadow-lg bg-fendr-accent hover:bg-emerald-700 hover:scale-105 hover:shadow-xl;
+}
+
+.btn-outline {
+  @apply px-6 py-3 font-semibold transition-all duration-300 border-2 rounded-lg border-fendr-primary text-fendr-primary hover:bg-fendr-primary hover:text-white;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}

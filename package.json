@@ -1,0 +1,16 @@
+{
+  "name": "fendr",
+  "version": "1.0.0",
+  "description": "Fendr - Defending Farmers, Feeding Nations - Nigerian Digital Marketplace",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
