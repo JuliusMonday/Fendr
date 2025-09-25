@@ -17,7 +17,7 @@ const HomePage = () => {
         
         <div className="relative z-10 max-w-4xl px-4 mx-auto text-center text-white">
           <h1 className="mb-6 text-5xl font-bold md:text-7xl animate-fade-in">
-            Defending Farmers, Feeding Nations
+            <span class="text-fendr-accent">Defending</span> Farmers, <span class="text-fendr-primary">Feeding</span> Nations
           </h1>
           <p className="mb-8 text-xl md:text-2xl animate-slide-up">
             Connecting Nigerian smallholder farmers directly to buyers for fair prices and fresh food without middlemen

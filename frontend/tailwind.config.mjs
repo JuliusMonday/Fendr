@@ -1,4 +1,4 @@
-// frontend/tailwind.config.js
+// frontend/tailwind.config.mjs
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -13,10 +13,9 @@ export default {
         'fendr-accent': '#04966a',
       },
       fontFamily: {
-        'sans': ['Inter', 'system-ui', 'sans-serif'],
-        'heading': ['Poppins', 'system-ui', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        heading: ['Poppins', 'system-ui', 'sans-serif'],
       },
-      // Keep your custom animations if you want them
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
         'slide-up': 'slideUp 0.6s ease-out',
