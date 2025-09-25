@@ -1,6 +1,8 @@
+// frontend/tailwind.config.js
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
+    "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
@@ -14,6 +16,7 @@ module.exports = {
         'sans': ['Inter', 'system-ui', 'sans-serif'],
         'heading': ['Poppins', 'system-ui', 'sans-serif'],
       },
+      // Keep your custom animations if you want them
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
         'slide-up': 'slideUp 0.6s ease-out',
